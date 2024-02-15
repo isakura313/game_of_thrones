@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg width="20" height="20" viewBox="0 0 20 20" id="star_1" class="fill">
+      <polygon
+        fill="yellow"
+        stroke="#000"
+        stroke-width="0.1"
+        points="10 2 12.63 7.27 18.5 8.12 14.25 12.22 15.25 18 10 15.27 4.75 18 5.75 12.22 1.5 8.12 7.37 7.27"
+      ></polygon>
+    </svg>
+    <svg width="20" height="20" viewBox="0 0 20 20" id="star_2" class="fill">
+      <polygon
+        fill="yellow"
+        stroke="#000"
+        stroke-width="0.1"
+        points="10 2 12.63 7.27 18.5 8.12 14.25 12.22 15.25 18 10 15.27 4.75 18 5.75 12.22 1.5 8.12 7.37 7.27"
+      ></polygon>
+    </svg>
+    <svg width="20" height="20" viewBox="0 0 20 20" id="star_3" class="empty">
+      <polygon
+        fill="yellow"
+        stroke="#000"
+        stroke-width="0.1"
+        points="10 2 12.63 7.27 18.5 8.12 14.25 12.22 15.25 18 10 15.27 4.75 18 5.75 12.22 1.5 8.12 7.37 7.27"
+      ></polygon>
+    </svg>
+    <script></script>
+    <style>
+      .empty polygon {
+        fill: rgba(255, 100, 100, 1);
+      }
+      svg::after{
+        content: "";
+        display: block;
+        margin-left: -2px;
+      }
+    </style>
+  </body>
+</html>
